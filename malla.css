@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f0;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+.logo-container {
+    order: 1;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.user-info {
+    text-align: right;
+    order: 2;
+}
+
+.small-image-container {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.small-image {
+    max-width: 30px;
+}
+
+.malla-container {
+    margin: 20px;
+}
+
+.semestre-container {
+    background-color: #3366cc;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.materia-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.aprobado {
+    background-color: #3366cc;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+.no-cursada {
+    background-color: #cc0000;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px 5px;
+}
